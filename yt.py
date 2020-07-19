@@ -10,8 +10,8 @@ from youtube_title_parse import get_artist_title
 
 class Youtube:
     def __init__(self, playlist_url):
-        # Path to chromedriver.exe
-        self.path = 'chromedriver.exe'
+        # Path to chromedriver
+        self.path = 'chromedriver'
         self.playlist_url = playlist_url
         self.songs_info = {}
 
